@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApplication1", "..\BulbsApp\MvcApplication1\MvcApplication1.csproj", "{172C110E-6586-4030-B25E-2B79A2CA7786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulbPuzzleLibrary", "BulbPuzzleLibrary\BulbPuzzleLibrary.csproj", "{59B9BF5C-36DA-4A7E-811B-42668C626794}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulbPuzzleConsoleApp", "BulbPuzzleConsoleApp\BulbPuzzleConsoleApp.csproj", "{FCD594BA-4290-4C7B-AD8D-21626E824412}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{172C110E-6586-4030-B25E-2B79A2CA7786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172C110E-6586-4030-B25E-2B79A2CA7786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172C110E-6586-4030-B25E-2B79A2CA7786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172C110E-6586-4030-B25E-2B79A2CA7786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59B9BF5C-36DA-4A7E-811B-42668C626794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59B9BF5C-36DA-4A7E-811B-42668C626794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59B9BF5C-36DA-4A7E-811B-42668C626794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59B9BF5C-36DA-4A7E-811B-42668C626794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCD594BA-4290-4C7B-AD8D-21626E824412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD594BA-4290-4C7B-AD8D-21626E824412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD594BA-4290-4C7B-AD8D-21626E824412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD594BA-4290-4C7B-AD8D-21626E824412}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
