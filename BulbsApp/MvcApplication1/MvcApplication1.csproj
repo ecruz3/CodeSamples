@@ -226,7 +226,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\CodeSample\BulbPuzzleLibrary\BulbPuzzleLibrary.csproj">
+    <ProjectReference Include="..\..\BulbPuzzle\BulbPuzzleLibrary\BulbPuzzleLibrary.csproj">
       <Project>{59b9bf5c-36da-4a7e-811b-42668c626794}</Project>
       <Name>BulbPuzzleLibrary</Name>
     </ProjectReference>
