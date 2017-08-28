@@ -1,16 +1,14 @@
 ﻿@{
-    Layout = null;
-    ViewBag.Title = "NewPuzzleRun";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 @model MvcApplication1.Models.BulbPuzzleModel
 
-<h2>New Puzzle Run</h2>
+<h2>Bulb Puzzle Runner</h2>
 
-@using (Html.BeginForm()) {
+@using (Html.BeginForm())
+{
     <fieldset>
-        @*<legend>BulbPuzzleModel</legend>*@
-
         <div class="editor-label">
             @Html.LabelFor(m => m.NumberOfPeople)
         </div>
@@ -23,34 +21,21 @@
         <div class="editor-field">
             @Html.EditorFor(m => m.NumberOfBulbs)
         </div>
+        @if (Model != null && Model.NumberOfBulbsOn > 0)
+        {
         <div class="editor-label">
             @Html.LabelFor(m => Model.NumberOfBulbsOn)
         </div>
-        <div class="editor-field">
-            @Html.DisplayFor(m => Model.NumberOfBulbsOn)
-        </div>
-
-        <p><input type="submit" value="Submit" /></p>
+            <div class="editor-field">
+                @Html.DisplayFor(m => Model.NumberOfBulbsOn)
+            </div>
+                <div class="editor-label">
+                    Bulbs On
+                </div>
+                <div class="editor-field">
+                    @Html.DisplayFor(mbox => Model.BulbsOn)
+                </div>
+        }
+        <p><input type="submit" value="Submit"/></p>
     </fieldset>
 }
-
-@*
-<!DOCTYPE html>
-
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
-    <div>
-        <form action="/Home/Form" method="post">
-            <input type="number" name="numberOfPeople" />
-            <input type="number" name="numberOfBulbs" />
-
-            <input type="submit" value="Submit" />
-        </form>    
-    </div>
-</body>
-</html>*@
