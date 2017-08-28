@@ -11,10 +11,18 @@ namespace BulbPuzzleConsoleApp
     {
         static void Main(string[] args)
         {
-            int people = 100;
-            int bulbs = 100;
+            if (args.Length != 2)
+            {
+                Console.WriteLine("Missing arguments!");
+                Console.WriteLine("Usage: BulbPuzzleConsoleApp <Number of People> <Number of Bulbs>");
+            }
+            else
+            {
+                int people = Convert.ToInt32(args[0]); ;
+                int bulbs = Convert.ToInt32(args[1]);
 
-            RunPuzzle(people, bulbs);
+                RunPuzzle(people, bulbs);
+            }
 #if DEBUG
             Console.WriteLine("Press <Enter> to exit.");
             Console.ReadLine();
