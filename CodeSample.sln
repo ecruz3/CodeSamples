@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulbPuzzleMVC", "..\BulbsApp\MvcApplication1\BulbPuzzleMVC.csproj", "{172C110E-6586-4030-B25E-2B79A2CA7786}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulbPuzzleMVC", "WebApp\BulbPuzzleMVC.csproj", "{172C110E-6586-4030-B25E-2B79A2CA7786}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulbPuzzleLibrary", "..\BulbPuzzle\BulbPuzzleLibrary\BulbPuzzleLibrary.csproj", "{59B9BF5C-36DA-4A7E-811B-42668C626794}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulbPuzzleLibrary", "Library\BulbPuzzleLibrary.csproj", "{59B9BF5C-36DA-4A7E-811B-42668C626794}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulbPuzzleConsoleApp", "..\BulbPuzzle\BulbPuzzleConsoleApp\BulbPuzzleConsoleApp.csproj", "{FCD594BA-4290-4C7B-AD8D-21626E824412}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulbPuzzleConsoleApp", "ConsoleApp\BulbPuzzleConsoleApp.csproj", "{FCD594BA-4290-4C7B-AD8D-21626E824412}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

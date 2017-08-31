@@ -48,7 +48,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BulbPuzzleLibrary\BulbPuzzleLibrary.csproj">
+    <ProjectReference Include="..\Library\BulbPuzzleLibrary.csproj">
       <Project>{59b9bf5c-36da-4a7e-811b-42668c626794}</Project>
       <Name>BulbPuzzleLibrary</Name>
     </ProjectReference>
